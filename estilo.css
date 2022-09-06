@@ -1,0 +1,132 @@
+body{
+    background-color: #F3F5FC;
+    font-family: "Inter", sans-serif;
+}
+header{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 32px;
+}
+main{
+    display: flex;
+    margin: 3% 5% 5% 5%;
+    width: auto;
+    align-items: stretch;
+}
+
+footer{
+    text-align: center;
+}
+
+.Entrada{
+    width: 50%;
+    height: min-content;
+    display: inline;
+    background: transparent;
+    margin: 5% 5% 0 0;
+}
+.Salida{
+    width: 50%;
+    height: min-content;
+    display: inline;
+    background: transparent;
+    margin: 5% 5% 0 0;
+}
+#texto{
+    background: transparent;
+    margin: 5% 0 0 10%;
+    width: 95%;
+    height: 100%;   
+    border: none;
+    color: #0A3871;
+    font-family: "Inter"; 
+    font-size: 32px;
+    resize: none;
+    outline: none;
+}
+
+.img-alerta{
+    position: relative;
+    left: 10%;
+}
+
+label {
+    position: relative;    
+    left: 10%;
+    font-weight: 600;
+    font-family: Inter;
+    font-style: normal;
+    font-size:20px;
+    color: #495057;
+}
+#resultado{
+    background: white;
+    margin: 5% 0 0 10%;
+    width: 95%;
+    height: 100%;   
+    border-radius: 5%;
+    border-color: white;
+    color: #495057;
+    font-family: "Inter"; 
+    font-size: 32px;
+    resize: none;
+    outline: none;
+}
+#resultado::placeholder{
+    text-align: center;
+    font-family: "Inter" , sans-serif;
+    color: #495057;
+    font-size: 32px;
+    font-weight: 400;
+}
+#texto::placeholder{
+    font-family: "Inter" , sans-serif;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+}
+#Entrada p{
+    margin-left: 10%;
+    font-size: 12px;
+    color: #495057;
+}
+
+button{
+    padding: 24px;
+    margin: 3% 0 0 10%;
+    width: 40%;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    font-weight: bold;
+}
+button:active{
+    border: 1px solid rgb(139, 166, 255);
+}
+
+#encriptar{
+    background: #0A3871;
+    color: white;
+}
+#desencriptar{
+    background: #D8DFE8;
+    color: #0A3871;
+    margin-left: 5%;
+}
+#copiar{
+    margin-top: 7%;
+    background: #0A3871;
+    color: white;
+}
+
+#escuchar{
+    margin-top: 7%;
+    background: #D8DFE8;
+    color: #0A3871;
+    margin-left: 5%;
+}
